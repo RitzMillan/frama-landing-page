@@ -1,0 +1,43 @@
+.home-container{
+    height: 100%;
+    background: #0085FF;
+
+    .hero-text{
+        margin: 0%;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 75px;
+        text-align: center;
+        color: #FFFFFF;
+
+        padding-top: 15%;
+    }
+
+    .text-container {
+        width: 69%;
+        margin-left: auto;
+        margin-right: auto;
+
+        .text {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 145%;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
+
+    .trail-img {
+        width: 100%;
+        padding-top: 2%;
+    }
+
+    .globe-img {
+        height: 100%;
+        position: absolute;
+        top: 250px;
+        right: 0%;
+    }
+}

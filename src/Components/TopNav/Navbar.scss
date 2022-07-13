@@ -1,0 +1,25 @@
+.Navbar {
+    width: 100vw;
+    position: fixed;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    background: #0085FF;
+    z-index: 999;
+
+    .nav-logo {
+        padding-left: 2%;
+    }
+
+    .nav-text-group {
+        padding-right: 5%;
+
+        .nav-text {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            color: #FFFFFF;
+        }
+    }
+}
